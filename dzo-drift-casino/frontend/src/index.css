@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-shadow-neon {
+    text-shadow: 0 0 10px rgba(236, 72, 153, 0.7), 0 0 20px rgba(168, 85, 247, 0.5);
+  }
+  .box-shadow-neon {
+    box-shadow: 0 0 25px rgba(236, 72, 153, 0.25), inset 0 0 15px rgba(168, 85, 247, 0.15);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #030712;
+}
